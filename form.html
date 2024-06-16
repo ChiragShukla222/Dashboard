@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    
+    <nav id="side_nav">
+        <div class="log">
+            
+            <h2> ADMIN DASHBOARD</h2>
+        </div>
+            <div class="item">
+                    
+                <a href="index.html"><li><i class="fa-solid fa-bag-shopping"></i>&nbsp; &nbsp;Home </li></a>
+                    <a href="table.html"><li><i class="fa-solid fa-bag-shopping"></i>&nbsp; &nbsp;Table </li></a>
+                   
+                    <a href="form.html"><li><i class="fa-solid fa-user"></i>&nbsp;&nbsp; Form</li></a>
+                    <a href="#"><li><i class="fa-solid fa-right-from-bracket fa-beat"></i>&nbsp; &nbsp; LogOut</li></a>
+                    
+            </div>
+            
+    
+    </nav>
+    <!-- for top nav bar -->
+    
+        
+        
+        <div class="main_content">
+            <div class="headw">
+                <div class="heard--little">
+                    <span>Primary </span>
+                    <h2>Dashboard</h2>
+                </div>
+                <div class="user-info">
+                    <div class="search_box">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="search" >
+                        <img src="/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg" alt="">
+                    </div>
+                </div>
+                <header>
+                    
+                    <div class="clock">
+                        <span id="time"></span>
+                    </div>
+                  
+                    <!-- <div class="theme-toggle">
+                        <input type="checkbox" id="theme-switch">
+                        <label for="theme-switch" class="toggle-label">
+                            <span class="toggle-btn"></span>
+                        </label>
+                    </div> -->
+                </header>
+            </div>
+            <!-- form tag -->
+            <div class="container">
+                <form action="" id="newdata">
+                    <!-- form fields -->
+                    <form action="" id="newdata">
+        
+            
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Name "><br><br>
+                
+                        <label for="age">Age</label>
+                        <input type="text" id="age" placeholder="Age"><br><br>
+                
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="Email with @"><br><br>
+                
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" placeholder="!0 digit number here"><br><br>
+                
+                        <label for="house">Address</label>
+                        <input type="text" id="house" placeholder="Address"><br><br>
+                
+                        <button onclick="formvalidato()">Register</button>
+                        
+                    </form>
+
+                </form>
+            </div>
+                
+    <script src="form.js"></script>
+    <script src="panel.js"></script>
+</body>
+</html>
